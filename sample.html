@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testimonial Cards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fc;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .user-info img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 12px;
+    }
+
+    .user-info h4 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .user-info span {
+      font-size: 14px;
+      color: gray;
+    }
+
+    .feedback {
+      font-size: 15px;
+      margin: 10px 0;
+    }
+
+    .stars {
+      color: gold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="testimonials">
+    
+    <div class="card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/50?img=1" alt="User">
+        <div>
+          <h4>Jannatul Ferdous</h4>
+          <span>Dhaka</span>
+        </div>
+      </div>
+      <p class="feedback">I never thought seeing a doctor could be this easy. Curely made it simple and fast!</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/50?img=2" alt="User">
+        <div>
+          <h4>Rafiq Ahmed</h4>
+          <span>Chattogram</span>
+        </div>
+      </div>
+      <p class="feedback">Perfect for managing my parents’ medications and appointments from one place.</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/50?img=3" alt="User">
+        <div>
+          <h4>Sarah Khan</h4>
+          <span>Sylhet</span>
+        </div>
+      </div>
+      <p class="feedback">The telehealth feature saved me so much time! Professional doctors, great service!</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/50?img=4" alt="User">
+        <div>
+          <h4>Tanvir</h4>
+          <span>Sylhet</span>
+        </div>
+      </div>
+      <p class="feedback">I booked a video consultation during lunch break — no traffic, no hassle!</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/50?img=5" alt="User">
+        <div>
+          <h4>Shabnam</h4>
+          <span>Rajshahi</span>
+        </div>
+      </div>
+      <p class="feedback">Finally, an app that reminds me about my medicine on time. Super helpful!</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/50?img=6" alt="User">
+        <div>
+          <h4>Mahmud</h4>
+          <span>Barisal</span>
+        </div>
+      </div>
+      <p class="feedback">The chat with doctor feature saved me an unnecessary clinic visit.</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+  </div>
+ 
+   
+    <section>  
+        <hr color="black" >
+        <div class="copy">
+            <div>&copy;2025 SkillsReady.Inc </div>
+            <h4>Contact us on :  <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-x-twitter"></i>  <i class="fa-regular fa-envelope"></i> <i class="fa-brands fa-telegram"></i></h4>
+  
+            <div><i class="fa-solid fa-location-dot"></i> Rajahmundry , AP</div> 
+        </div>
+    </section>
+</body>
+</html>
